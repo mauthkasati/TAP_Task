@@ -1,0 +1,150 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font family */
+body {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    border-color: #008AAA;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: transparent;
+    padding: 2%;
+    text-align: right;
+}
+
+nav ul {
+    margin-top: 4%;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10%;
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #008AAA;
+    font-weight: bold;
+}
+
+#homeIcon{
+    color: #D1884F;
+}
+
+/* .home_icon{
+    font-size: 37px;
+    size: 35px;
+    color: #D1884F;
+    position: absolute;
+} */
+
+
+/* Style the main content section */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center; /* Vertically align content */
+}
+
+.text-section {
+    width: 50%;
+    padding: 20px;
+}
+
+/* Center align text vertically */
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.text-section h1 {
+    color: #3BBADB;
+    font-size: 26px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.text-section h2 {
+    color: #008AAA;
+    font-size: 36px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.text-section .highlight {
+    color: #D1884F;
+}
+
+.text-section p {
+    color: #000;
+    font-size: 22px;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.buttons {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hire-me {
+    background-color: #008AAA;
+    color: #fff;
+    box-shadow: 0 5px 3px 0 rgba(0, 136, 170, 0.3);
+    margin-right: 4%;
+    border: 1px solid #008AAA;
+    font-size: 28px
+}
+
+.see-projects {
+    background-color: #fff;
+    color: #008AAA;
+    border: 1px solid #008AAA;
+    font-size: 28px;
+}
+
+.image-section {
+    width: 20%;
+    position: relative;
+    border-radius: 0 0 0 50%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 0 0 0 50%;
+    margin-right: 20%;
+}
+
+/* Add a blue shadow using the shadow div */
+.image-shadow {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 100%;
+    height: 96.21432%;
+    background: #3BBADB; /* Blue shadow color */
+    z-index: -1;
+    border-radius: 0 0 0 50%;
+    margin-right: 20%;
+}
+
